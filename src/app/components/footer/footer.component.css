@@ -1,0 +1,40 @@
+.fondorojo{
+    width: 100%;
+    height: 7vh;
+    background: #E02D1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.fondoverde{
+    background:#EEFFF7;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.consejos{
+    width: 50%;
+    color: #E68A7F;
+    font-weight: bold;
+}
+
+.iconos ul{
+    display: flex;
+    width: 20%;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+.menu li{
+    width: 120%;
+    font-size: 15px;
+}
