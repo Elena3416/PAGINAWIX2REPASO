@@ -4,7 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContactComponent } from './components/contact/contact.component';
+import {BodyComponent} from "./components/body/body.component";
+import { ContactComponent } from './components/body/contact/contact.component';
+import { AboutusComponent } from './components/body/aboutus/aboutus.component';
 
 
 @NgModule({
@@ -12,7 +14,9 @@ import { ContactComponent } from './components/contact/contact.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    ContactComponent
+    BodyComponent,
+    ContactComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
