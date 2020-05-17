@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarjetasComponent implements OnInit {
 
+  public Contact: string = "For any questions, please send us a message";
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,3 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.Anime{
+    animation: animation 1s forwards;
+}
 
 
+@keyframes animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

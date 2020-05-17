@@ -1,4 +1,4 @@
-const departments = [
+export const departments = [
     {
         id: 1,
         department:'Él',
@@ -21,35 +21,35 @@ const departments = [
     }
 ]
 
-const brand = [
+export const brand = [
     {
         id:1,
         brand:'nike',
-        img:'assets/img/nike.png'
+        img:'img/nike.png'
     },
     {
         id:2,
         brand:'aeropostale',
-        img:'assets/img/aeropostale.png'
+        img:'img/aeropostale.png'
     },
     {
         id:3,
         brand:'levi´s',
-        img:'assets/img/levis.png'
+        img:'img/levis.png'
     },
     {
         id:4,
         brand:'gap',
-        img:'assets/img/gap.png'
+        img:'img/gap.png'
     },
     {
         id:5,
         brand:'ralph lauren',
-        img:'assets/img/ralphlauren.png'
+        img:'img/ralphlauren.png'
     },
 ]
 
-const products = [
+export const products = [
   {
     id:1,
     brand:1,
@@ -57,7 +57,7 @@ const products = [
     product:'Playera de básquetbol Nike',
     colors:['#ffffff', '#000000'],
     sizes:['s','m','l','xl'],
-    img:'assets/img/id1.jpg',
+    img:'img/id1.jpg',
     description:['Algodón de primer nivel', 'El estampado de tinta fotocromática cambia de color cuando se expone a la luz solar.'],
     price:649,
     msi:true
@@ -69,7 +69,7 @@ const products = [
     product:'Playera básica Aeropostale cuello redondo',
     colors:['#0a1845', '#cfbd00'],
     sizes:['m','l','xl'],
-    img:'assets/img/id2.jpg',
+    img:'img/id2.jpg',
     description:['estampado en vinil', 'maga corta', 'estilo joven','algodón super cómodo'],
     price:209.30,
     msi:false
@@ -81,7 +81,7 @@ const products = [
     product:'Playera Levi´s edición especial',
     colors:['#ff0000', '#000000'],
     sizes:['xs','s','m','l','xl'],
-    img:'assets/img/id3.jpg',
+    img:'img/id3.jpg',
     description:['Colección Super Mario Bros Nintendo','corte regular fit', 'cuello redondo', 'estampado en vinil'],
     price:499,
     msi:true
@@ -93,7 +93,7 @@ const products = [
     product:'Playera lisa GAP',
     colors:['#00123d'],
     sizes:['s','m','l'],
-    img:'assets/img/id4.jpg',
+    img:'img/id4.jpg',
     description:[, 'estilo clásico', 'manga corta', 'cuello V', 'algodón','Para vestir casual'],
     price:279.30,
     msi:false
@@ -105,7 +105,7 @@ const products = [
     product:'Playera Polo Ralph Lauren',
     colors:['#00123d','#00fff7'],
     sizes:['s','m','l','xl','xxl'],
-    img:'assets/img/id5.jpg',
+    img:'img/id5.jpg',
     description:['algodón','corte slim fit', 'manga corta', 'casual', 'logo bordado a la altura del pecho en lado izquierdo'],
     price:1113,
     msi:true
@@ -114,10 +114,10 @@ const products = [
     id:6,
     brand:1,
     department:2,
-    product:'playera fitness Nike',
+    product:'Playera fitness Nike',
     colors:['#ff9999'],
     sizes:['xs','s','m','l'],
-    img:'assets/img/id6.jpg',
+    img:'img/id8.jpg',
     description:['algodón','corte regular fit', 'cuello redondo', 'manga corta'],
     price:314,
     msi:true
@@ -129,7 +129,7 @@ const products = [
     product:'Playera básica Aeropostale',
     colors:['#000000', '#cc9200'],
     sizes:['xs','s','m','l'],
-    img:'assets/img/id7.jpg',
+    img:'img/id9.jpg',
     description:['algodón y poliester','cuello redondo', 'estampado impreso con tonos metálicos'],
     price:209,
     msi:false
@@ -141,7 +141,7 @@ const products = [
     product:'Playera Levi´s edición Limitada',
     colors:['#ffffff'],
     sizes:['xs','s','m','l'],
-    img:'assets/img/id8.jpg',
+    img:'img/id8.jpg',
     description:['corte slim fit', 'playera de algodón', 'cuello reodndo', 'manga corta', 'estampado multicolor'],
     price:109.40,
     msi:false
@@ -153,7 +153,7 @@ const products = [
     product:'Blusa lisa GAP',
     colors:['#00123d'],
     sizes:['xs','s','m'],
-    img:'assets/img/id9.jpg',
+    img:'img/id9.jpg',
     description:['algodón spandexx', 'cueyo V', 'manga corta', 'no estampado'],
     price:379.30,
     msi:true
@@ -165,7 +165,7 @@ const products = [
     product:'Playera polo Ralph Lauren',
     colors:['#ff008c', '#f2ff00'],
     sizes:['xs','s','m'],
-    img:'assets/img/id10.jpg',
+    img:'img/id10.jpg',
     description:['algodón' ,'con 5 botones', 'Colores vivos', 'corte recto', 'Manga corta'],
     price:699,
     msi:true
@@ -177,7 +177,7 @@ const products = [
     product:'Vestido GAP a cuadros',
     colors:['#eff757','#a5ff70','#fcbebd'],
     sizes:['1-2M','6-9M','9-12M','12-18M'],
-    img:'assets/img/id11.jpg',
+    img:'img/id11.jpg',
     description:['algodón', 'corte semi-A', 'largo regular'],
     price:559.30,
     msi:true
@@ -189,7 +189,7 @@ const products = [
     product:'Playera GAP bebé',
     colors:['#00123d','#ff0000'],
     sizes:['1-2M','6-9M','9-12M','12-18M'],
-    img:'assets/img/id12.jpg',
+    img:'img/id12.jpg',
     description:['corte regular fit', 'casual', 'manga corta', 'algodón suave y amable con su piel'],
     price:279,
     msi:false
@@ -201,7 +201,7 @@ const products = [
     product:'Conjunto sudadera y pantalón',
     colors:['#fcbebd','#00123d'],
     sizes:['1-2M','6-9M','9-12M','12-18M'],
-    img:'assets/img/id13.jpg',
+    img:'img/id13.jpg',
     description:['para bebé niña', '2 piezas', 'manga larga', 'calido y suave algodón'],
     price:524,
     msi:true
@@ -213,7 +213,7 @@ const products = [
     product:'Conjunto sudadera y pantalón',
     colors:['#b0b0b0','#00123d'],
     sizes:['1-2M','6-9M','9-12M','12-18M'],
-    img:'assets/img/id14.jpg',
+    img:'img/id14.jpg',
     description:['conjunto algodón para bebé niño', '2 piezas', 'manga larga', 'calido y suave algodón'],
     price:524,
     msi:true
@@ -225,7 +225,7 @@ const products = [
     product:'Nike Air Force 1 07',
     colors:['#000000'],
     sizes:['22','22.5','23','23.5','24','24.5','25','25.5','26','26.5','27'],
-    img:'assets/img/id15.jpg',
+    img:'img/id15.jpg',
     description:['Tenis Nike Air Force 1 07', 'casual', 'Son de alta durabilidad, son muy modernos', 'combinan perfecto.', 'negro', 'dama'],
     price:1899,
     msi:true
@@ -237,7 +237,7 @@ const products = [
     product:'Tenis Nike Revolution 5',
     colors:['#ffffff', '#000000'],
     sizes:['22','22.5','23','23.5','24','24.5','25','25.5','26','26.5','27'],
-    img:'assets/img/id16.jpg',
+    img:'img/id16.jpg',
     description:['deportivo', 'Son de alta durabilidad, son muy ligeros', 'Perfectos para correr', 'negro', 'caballero'],
     price:999,
     msi:true
@@ -249,7 +249,7 @@ const products = [
     product:'Tenis Aeropostal Mezclilla Con Plataforma',
     colors:['#ffffff','#00123d'],
     sizes:['22','22.5','23','23.5','24','24.5','25','25.5','26','26.5','27'],
-    img:'assets/img/id17.jpg',
+    img:'img/id17.jpg',
     description:['casual', 'suela sintetica', 'dama'],
     price:659,
     msi:false
@@ -261,7 +261,7 @@ const products = [
     product:'Tenis Sneaker Aeropostale ',
     colors:['#ffffff','#b0b0b0'],
     sizes:['22','22.5','23','23.5','24','24.5','25','25.5','26','26.5','27'],
-    img:'assets/img/id18.jpg',
+    img:'img/id18.jpg',
     description:['Caballero', ' Blancos', 'corte textil'],
     price:660,
     msi:false
@@ -273,7 +273,7 @@ const products = [
     product:'Botas levi´s Casuales',
     colors:['#6e450c', '#382306'],
     sizes:['22','22.5','23','23.5','24','24.5','25','25.5','26','26.5','27'],
-    img:'assets/img/id19.jpg',
+    img:'img/id19.jpg',
     description:['Piel color Café', 'caballero', 'comodas y duraderas', 'suela aislante'],
     price:1149,
     msi:true
@@ -285,7 +285,7 @@ const products = [
     product:'Tenis Casual levi´s',
     colors:['#ffffff', '#b37a00'],
     sizes:['22','22.5','23','23.5','24','24.5','25','25.5','26','26.5','27'],
-    img:'assets/img/id20.jpg',
+    img:'img/id20.jpg',
     description:['Dama', 'Mujer', 'textil/lona', 'producto mexicano'],
     price:549,
     msi:false

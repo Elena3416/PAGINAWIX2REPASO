@@ -1,0 +1,48 @@
+.tarjetas{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    z-index: -3;
+}
+
+h1{
+    font-size: 50px;
+    color:#E02D1F;
+    font-family: "Lobster";
+    text-align: center;
+}
+
+.ropamujer{
+    width: 90%;
+    height: 130vh;
+    margin: 5% 5%;
+}
+
+.ropamujer img{
+    width: 70%;
+    height: 70%;
+    margin: 6% 6%;
+    border: 3px solid #000;
+}
+
+p{
+    color: #E02D1F;
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 25%;
+}
+
+hr{
+    width: 40px;
+    height: 2px;
+    background: #E02D1F;
+    margin-left: 35%;
+}
+
+.Promotions{
+    width: 25%;
+    height: 30px;
+    background: #E02D1F;
+    color: #fff;
+    font-size: 15px;
+}
