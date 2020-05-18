@@ -19,7 +19,7 @@
     color: #fff;
     font-size: 20px;
     margin-top: 15px;
-    animation: change 2s linear infinite;
+    animation: change 2s linear infinite -0.7s;
 }
 
 .animacion p:nth-child(2){
@@ -68,6 +68,7 @@ h3{
     padding: 10%;
     font-size: 20px;
     font-weight: bold;
+    margin-top: -7%;
 }
 
 .menu ul{
@@ -94,10 +95,14 @@ h3{
 
 .login ul{
     display: flex;
+    justify-content:center;
+    align-items: center;
+     
 }
 
 .login ul li {
     list-style-type: none;
+    font-size: 17px;
 }
 
 @keyframes change{

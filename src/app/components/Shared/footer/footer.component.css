@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    z-index: 3;
+    position: absolute;
+    margin-top: 82%
 }
 
 .fondoverde{
@@ -16,7 +17,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    z-index: 3;
+    position:absolute;
+    margin-top: 72%;
 }
 
 .consejos{
@@ -25,21 +27,22 @@
     font-weight: bold;
 }
 
-.iconos{
-    width: 10%;
+.iconos2{
+    width: 6%;
+
 }
 
-.iconos ul{
+.iconos2 ul{
     display: flex;
-    width: 40%;
+    justify-content: center;
+    align-items: center;
 }
 
-.iconos li{
+.iconos2 li{
     list-style-type: none;
     font-size: 25px;
-    padding: 200%;
+    padding: 10%;
     cursor: pointer;
-    margin-left: -150%;
 }
 
 .menu ul{

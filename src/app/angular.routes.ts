@@ -16,8 +16,8 @@ const Rutas: Routes = [
     { path: "aboutus", component:AboutusComponent},
     { path: "productos-mujer", component:ProductosMujerComponent},
     { path: "productos-hombre", component:ProductosHombreComponent},
-    { path: "descripcion-ropa-mujer", component:DescripcionRopaMujerComponent},
-    { path: "descripcion-ropa-hombre", component:DescripcionRopaHombreComponent},
+    { path: "descripcion-ropa-mujer/:id", component:DescripcionRopaMujerComponent},
+    { path: "descripcion-ropa-hombre/:id", component:DescripcionRopaHombreComponent},
     { path: "notFound", component:NotfoundComponent},
     { path: '**', pathMatch:'full', redirectTo: 'notFound'}
 ];

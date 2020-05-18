@@ -1,8 +1,8 @@
 .tarjetas{
     width: 100%;
-    height: 170vh;
+    height: 130vh;
     z-index: -3;
-    position: relative;
+    position: relative; 
 }
 
 .fondo{
@@ -13,6 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 }
 
 h1{
@@ -49,9 +51,9 @@ p{
 
 .tarjeta{
     width: 80%;
-    height: 100%;
+    height: 60%;
     margin-top: 5%;
-    background: rgb(153, 150, 150);
+    background: rgb(255, 255, 255);
 }
 
 img{
@@ -85,6 +87,13 @@ hr{
     border-radius: 18px;
     margin-top: 2%; 
     margin-left: 25%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.botones:hover{
+    background:#E02D1F;
+    color: #fff;
 }
 
 .cuadrorojo{
@@ -94,7 +103,7 @@ hr{
     border-bottom: 3px solid #fff;
     position: relative;
     z-index: -3;
-    margin-top: -3%;
+    margin-top: 20%;
 }
 
 .border{
@@ -159,10 +168,10 @@ h2{
 
 .contact{
     width: 100%;
-    height: 95vh;
+    height: 140vh;
     background-image: url(./../../../../assets/IMG/fondo.png);
     background-size: cover;
-    position: relative;
+    position: absolute;
     z-index: -3;
 }
 
@@ -197,6 +206,12 @@ h3{
     font-weight: bold;
     border-radius: 17px;
     margin-left: 35%;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background: #fff;
+    color: #E02D1F;
 }
 
 .informacion{

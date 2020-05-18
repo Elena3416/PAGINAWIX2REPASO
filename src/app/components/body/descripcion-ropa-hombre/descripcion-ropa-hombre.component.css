@@ -4,9 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     z-index: -3;
-}
+} 
+
 
 .informacion{
     display: flex;
@@ -16,10 +17,7 @@
     width: 60%;
     height: 10%;
     margin-left: -30%;
-}
-
-.imagen{
-    margin-left: 8%;
+    margin-top: 10%;
 }
 
 .imagen img{
@@ -28,12 +26,29 @@
 }
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
     color:#E02D1F;
     font-family: "Lobster";
+    margin-top: -10%;
+    margin-left: 40%;
+}
+
+p{
+    font-size: 15px;
+    color:#E02D1F;
+    width: 50%;
+    margin-left: 40%;
 }
 
 .producto{
     color: #E02D1F;
     cursor: pointer;
+}
+
+#Size{
+    margin-left: 130%;
+}
+
+input{
+    margin-left: 130%;
 }

@@ -16,21 +16,29 @@
     width: 60%;
     height: 10%;
     margin-left: -30%;
+    margin-top: 10%;
 }
 
 .imagen{
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .imagen img{
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
     color:#E02D1F;
     font-family: "Lobster";
+    margin-top: -10%;
+}
+
+p{
+    font-size: 15px;
+    color:#E02D1F;
+    width: 50%;
 }
 
 .producto{

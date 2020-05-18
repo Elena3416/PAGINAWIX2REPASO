@@ -3,6 +3,7 @@ import {ProductsInterface} from "../../../Interfaces/Interfaces";
 import { departments, products, brand} from 'src/app/DataEcomerce/data';
 import { from } from "rxjs";
 import {map, filter, tap} from "rxjs/operators";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-productos-mujer',
@@ -13,7 +14,7 @@ export class ProductosMujerComponent implements OnInit {
 
   public WomenClothes:Array<ProductsInterface> = [];
 
-  constructor() {
+  constructor(private router:Router) {
     this.GetProductos();
    }
 
@@ -36,5 +37,9 @@ export class ProductosMujerComponent implements OnInit {
       }),
       tap((productoactualizado) => this.WomenClothes.push(productoactualizado))
     ).subscribe();
+  }
+
+  public GetIdToChangeScreen(id:number){
+    this.router.navigate(["descripcion-ropa-mujer", id]);
   }
 }

@@ -1,11 +1,11 @@
 <div class="descripcion Anime">
   <div class="imagen">
-    <img src="./../../../../assets/img/id9.JPG" alt="" />
+    <img [src]="producto.img" alt="" />
   </div> 
   <div class="informacion">
-    <h1>Milk</h1>
-    <p>SKU: 011</p>
-    <p>Price: $</p>
+    <h1>{{producto.product}}</h1>   
+    <p>SKU: {{producto.id}}</p>
+    <p>Price: ${{producto.price}}</p>
     <p>Size:</p>
     <div class="col-4">
       <select id="Size">
@@ -20,16 +20,16 @@
       <input type="number" />
     </div>
     <button class="btn btn-block"></button>
-    <div class="producto">
+    <!-- <div class="producto"> -->
       <p><strong>Producto Info</strong></p>
-      <i class="fa fa-plus" aria-hidden="true"></i>
-      <i class="fa fa-minus" aria-hidden="true"></i>
+      <!-- <i class="fa fa-plus" aria-hidden="true"></i>
+      <i class="fa fa-minus" aria-hidden="true"></i> -->
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui necessitatibus
         autem eligendi, accusantium iure fugiat. Culpa error illo in sed, accusamus
         eligendi! Quam nesciunt voluptatem repellat ratione rem vero nihil!
       </p>
-      <p><strong>Return and Refund Policy</strong></p>
+      <!-- <p><strong>Return and Refund Policy</strong></p>
       <i class="fa fa-plus" aria-hidden="true"></i>
       <i class="fa fa-minus" aria-hidden="true"></i>
       <p>
@@ -46,6 +46,7 @@
         ex rerum laborum illum suscipit fuga dolores cumque earum cupiditate, eum
         quo sapiente! Incidunt fuga vel esse, officiis enim dignissimos.
       </p>
-    </div>
+    </div> -->
   </div>
 </div>
+
