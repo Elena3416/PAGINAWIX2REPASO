@@ -3,16 +3,22 @@
     <h1>{{ Tienda }}</h1>
     <hr id="linea">
     <p>{{ Texto }}</p>
-    <button type="submit" class="btn btn-block botonrojo">
+    <button type="submit" 
+    (click)="goColection(all.value)"
+            #all
+            value="1"
+            class="btn btn-block botones"
+    class="btn btn-block botonrojo" 
+    >
       Find your Clothes
     </button>
     <div class="tarjeta">
       <div class="row">
         <div class="col-4">
-          <img src="./../../../../assets/img/id2.JPG" alt="" />
+          <img src="./../../../../assets/img/id4.JPG" alt="" />
           <p class="Texto">{{ ForHim }}</p>
           <hr class="linea2"/>
-          <button
+          <button type="submit"
             (click)="goColection(man.value)"
             #man
             value="0"
@@ -22,23 +28,27 @@
           </button>
         </div>
         <div class="col-4">
-          <img src="./../../../../assets/img/Ropa.jpg" alt="" />
+          <img src="./../../../../assets/img/id13.JPG" alt="" />
           <p class="Texto">{{ AllCards }}</p>
           <hr class="linea2"/>
-          <button type="submit" class="btn btn-block botones">
+          <button type="submit" class="btn btn-block botones"
+          (click)="goColection(all.value)"
+          #all
+          value="1"
+          class="btn btn-block botones"
+          >
             {{ Seleccionar }}
           </button>
         </div>
         <div class="col-4">
           <img src="./../../../../assets/img/id12.JPG" alt="" />
           <p class="Texto">{{ ForHer }}</p>
-          <hr class="linea2"/>
+          <hr type="submit" class="linea2"/>
           <button
             #her
-            value="1"
+            value="2"
             (click)="goColection(her.value)"
-            class="btn btn-block botones"
-          >
+            class="btn btn-block botones" >
             {{ Seleccionar }}
           </button>
         </div>
@@ -55,7 +65,12 @@
       <div class="col-4 ofertas">
         <p>Buy it now and <strong>get 10% off</strong></p>
         <p>Use promo code <strong>Shop10</strong></p>
-        <button class="button btn btn-block">Shop Now</button>
+        <button type="submit" 
+        (click)="goColection(all.value)"
+        #all
+        value="1"
+        class="btn btn-block botones"
+        class="button btn btn-block">Shop Now</button>
       </div>
     </div>
   </div>

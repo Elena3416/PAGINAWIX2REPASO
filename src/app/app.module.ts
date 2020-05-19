@@ -13,7 +13,8 @@ import { DescripcionRopaHombreComponent } from './components/body/descripcion-ro
 import { ProductosMujerComponent } from "./components/body/productos-mujer/productos-mujer.component";
 import { ProductosHombreComponent } from "./components/body/productos-hombre/productos-hombre.component";
 import { APP_Routes } from "./angular.routes";
-import { NotfoundComponent } from './components/Shared/notfound/notfound.component'
+import { NotfoundComponent } from './components/Shared/notfound/notfound.component';
+import { ShopallComponent } from './components/body/shopall/shopall.component'
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NotfoundComponent } from './components/Shared/notfound/notfound.compone
     ProductosMujerComponent,
     ProductosHombreComponent,
     NotfoundComponent,
+    ShopallComponent,
   ],
   imports: [
     BrowserModule, APP_Routes

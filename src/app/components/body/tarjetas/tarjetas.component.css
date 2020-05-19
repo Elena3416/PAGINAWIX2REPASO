@@ -43,6 +43,11 @@ p{
     margin-top: 2%;
 }
 
+.botonrojo:hover{
+    background: #fff;
+    color: #E02D1F;
+}
+
 .tarjeta{
     width: 80%;
     height: 73%;

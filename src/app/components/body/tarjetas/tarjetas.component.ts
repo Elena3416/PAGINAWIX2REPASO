@@ -26,11 +26,13 @@ export class TarjetasComponent implements OnInit {
   
   public goColection(value){
 
-    if(value == '0'){
-      this.router.navigate(['productos-hombre'])
-    }else if(value == '1'){
-      this.router.navigate(['productos-mujer'])
-    }
+    if(value == "0"){
+      this.router.navigate(["productos-hombre"])
+    }else if(value == "1"){
+      this.router.navigate(["shopall"])
+    }else if(value == "2"){
+      this.router.navigate(["productos-mujer"])
+    } 
   }
 
   ngOnInit(): void {

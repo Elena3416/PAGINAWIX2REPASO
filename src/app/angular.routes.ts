@@ -8,6 +8,7 @@ import { ProductosHombreComponent } from './components/body/productos-hombre/pro
 import { DescripcionRopaMujerComponent } from './components/body/descripcion-ropa-mujer/descripcion-ropa-mujer.component';
 import { DescripcionRopaHombreComponent } from './components/body/descripcion-ropa-hombre/descripcion-ropa-hombre.component';
 import { NotfoundComponent } from './components/Shared/notfound/notfound.component';
+import { ShopallComponent } from "./components/body/shopall/shopall.component"
 
 const Rutas: Routes = [
     { path: "", component: BodyComponent },
@@ -16,6 +17,7 @@ const Rutas: Routes = [
     { path: "aboutus", component:AboutusComponent},
     { path: "productos-mujer", component:ProductosMujerComponent},
     { path: "productos-hombre", component:ProductosHombreComponent},
+    { path:"shopall", component:ShopallComponent },
     { path: "descripcion-ropa-mujer/:id", component:DescripcionRopaMujerComponent},
     { path: "descripcion-ropa-hombre/:id", component:DescripcionRopaHombreComponent},
     { path: "notFound", component:NotfoundComponent},

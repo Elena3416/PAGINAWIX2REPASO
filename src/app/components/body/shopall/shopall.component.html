@@ -1,0 +1,16 @@
+<div class="ShopAll Anime">
+    <div class="fondo">
+      <h1>{{ShopAll}}</h1>
+      <div class="AllClothes">
+        <div class="row">
+        <div class="col-4" *ngFor="let Ropa of AllClothes">
+            <img  [src] = "Ropa.img" alt="" />
+            <!-- <span (click)="GetIdToChangeScreen(Ropa.id)" >Quick View</span> -->
+            <p>Nombre: {{Ropa.product}}</p>
+            <hr />
+            <p> Precio: ${{Ropa.price}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

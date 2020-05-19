@@ -1,0 +1,78 @@
+.ShopAll{
+    width: 100%;
+    height: 200vh;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    color:#E02D1F;
+    font-family: "Lobster";
+    text-align: center;
+    margin-top: 20%;
+}
+
+.AllClothes{
+    width: 90%;
+    height: 100vh;
+    margin-left: 10%;
+    margin-top:5%;
+}
+
+.AllClothes img{
+    width: 70%;
+    height: 80%;
+    border: 3px solid #000;
+}
+
+p{
+    color: #E02D1F;
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: -35%;
+    text-align: center;
+}
+
+hr{
+    width: 40px;
+    height: 2px;
+    background: #E02D1F;
+    margin-left: 30%;
+}
+
+.Promotions{
+    width: 25%;
+    height: 30px;
+    background: #E02D1F;
+    color: #fff;
+    font-size: 15px;
+}
+
+span{
+    width: 68%;
+    height: 10%;
+    position: relative;
+    margin-top: -12%;
+    margin-left: 1%;
+    color: #0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AllClothes span:hover{
+    width: 68%;
+    height: 10%;
+    color: #E02D1F;
+    background: #EEFFF7;
+    opacity: 1;
+    border: 1px solid #000;
+}
+
