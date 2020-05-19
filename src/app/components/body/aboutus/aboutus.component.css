@@ -1,9 +1,7 @@
 .about{
     width: 100%;
-    height: 70vh;
+    height: 220vh;
     background: #fff;
-    position: relative;
-    z-index: -3;
 }
 
 h1{
@@ -28,7 +26,6 @@ h1{
     position: relative;
     top:9%;
     left: 45%;
-
 }
 
 .separador{

@@ -1,14 +1,14 @@
-<div class="tarjetasmujer Anime">
+<div class="tarjetashombre Anime">
   <div class="fondo">
-    <h1>For Her</h1>
-    <div class="ropamujer">
+    <h1>{{Him}}</h1>
+    <div class="ropahombre">
       <div class="row">
       <div class="col-4" *ngFor="let Ropa of MenClothes">
           <img  [src]="Ropa.img" alt="" />
-          <span (click)="GetIdToChangeScreen(Ropa.id)" >Quick View</span>
-          <p>{{Ropa.product}}</p>
+          <span (click)="GetIdToChangeScreen(Ropa.id)">Quick View</span>
+          <p>Nombre: {{Ropa.product}}</p>
           <hr />
-          <p>${{Ropa.price}}</p>
+          <p> Precio: ${{Ropa.price}}</p>
         </div>
       </div>
     </div>

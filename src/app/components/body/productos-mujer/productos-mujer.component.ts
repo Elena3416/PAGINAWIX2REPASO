@@ -13,6 +13,7 @@ import {Router} from "@angular/router";
 export class ProductosMujerComponent implements OnInit {
 
   public WomenClothes:Array<ProductsInterface> = [];
+  public Her:string = "For Her";
 
   constructor(private router:Router) {
     this.GetProductos();

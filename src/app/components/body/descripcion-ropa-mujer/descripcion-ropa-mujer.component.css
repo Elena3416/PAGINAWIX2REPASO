@@ -4,8 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    z-index: -3;
 }
 
 .informacion{
@@ -13,10 +11,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    width: 60%;
+    width: 70%;
     height: 10%;
-    margin-left: -30%;
-    margin-top: 10%;
+    margin-left: -35%;
+    margin-top: 15%;
 }
 
 .imagen{
@@ -25,23 +23,40 @@
 
 .imagen img{
     width: 40%;
-    height: 40%;
+    height: 35%;
+    margin-top:15%;
+    margin-left: 10%;
 }
 
 h1{
     font-size: 30px;
     color:#E02D1F;
     font-family: "Lobster";
-    margin-top: -10%;
+    margin-top: -8%;
 }
 
 p{
     font-size: 15px;
     color:#E02D1F;
     width: 50%;
+    text-align: justify;
 }
 
 .producto{
     color: #E02D1F;
+    margin-top: -3%;
+}
+
+.button{
+    background: #E02D1F;
+    color: #fff;
+    width: 50%;
+    font-weight: bold;
+    border-radius: 17px;
+    margin-top: 5%;
     cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.6;
 }

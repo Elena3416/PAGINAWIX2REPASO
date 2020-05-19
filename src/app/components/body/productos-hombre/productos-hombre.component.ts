@@ -10,9 +10,11 @@ import {Router} from "@angular/router";
   templateUrl: './productos-hombre.component.html',
   styleUrls: ['./productos-hombre.component.css']
 })
+
 export class ProductosHombreComponent implements OnInit {
 
   public MenClothes: Array<ProductsInterface> = [];
+  public Him:string = "For Him";
 
   constructor(private router:Router) {
     this.getProductos();
@@ -30,6 +32,8 @@ export class ProductosHombreComponent implements OnInit {
       filter((producto) => producto.department === Departamento.id),
       map((producto) => {
         let directionImg = `./../../../../assets/${producto.img}`;
+        console.log(producto.img);
+        
         return{
           ...producto,
           img: directionImg,
@@ -37,6 +41,9 @@ export class ProductosHombreComponent implements OnInit {
       }),
       tap((productoactualizado) => this.MenClothes.push(productoactualizado))
     ).subscribe();
+
+    console.log(this.MenClothes);
+    
   }
 
   public GetIdToChangeScreen(id:number){

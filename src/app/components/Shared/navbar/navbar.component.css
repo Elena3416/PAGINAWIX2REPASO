@@ -3,6 +3,7 @@
     position: fixed;
     width: 100%;
     height: 30vh;
+    z-index: +4;
 }
 
 .animacion{
@@ -11,23 +12,23 @@
     background: #E02D1F;
     display: flex;
     flex-direction: column;
-    align-content:center;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .animacion p:nth-child(1){
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    margin-top: 15px;
-    animation: change 2s linear infinite -0.7s;
+    opacity: 0;
+    color: #fff;  
+    animation: Ads 7s infinite ;
 }
 
 .animacion p:nth-child(2){
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    margin-top: 15px;
-    animation: change 5s linear;
+    opacity: 0;
+    color:#fff;
+    animation: Ads 7s infinite ;
+    animation-delay: 4s;
+    margin-left: 10%;
 }
 
 .cuadroverde{
@@ -68,14 +69,13 @@ h3{
     padding: 10%;
     font-size: 20px;
     font-weight: bold;
-    margin-top: -7%;
+    margin-top: -12%;
 }
 
 .menu ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1%;
 }
 
 .menu li{
@@ -97,7 +97,6 @@ h3{
     display: flex;
     justify-content:center;
     align-items: center;
-     
 }
 
 .login ul li {
@@ -105,12 +104,23 @@ h3{
     font-size: 17px;
 }
 
-@keyframes change{
- 0%{
-    margin-top: 1%;
- }
-
-100%{
-    margin-top: -4%;
-}
+@keyframes Ads{
+    0%{
+        position: absolute;
+        opacity: .8;
+        top: 15%;
+        left: 35%;
+    }
+    50%{
+        position: absolute;
+        opacity: 1;
+        top:-10%;
+        left: 35%;
+    }
+    100%{
+        position: absolute;
+        opacity: .3;
+        top: -20%;
+        left: 35%;
+    }
 }

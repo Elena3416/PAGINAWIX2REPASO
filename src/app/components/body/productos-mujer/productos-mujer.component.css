@@ -1,8 +1,6 @@
 .tarjetasmujer{
     width: 100%;
-    height: 100vh;
-    z-index: -3;
-    position: relative;
+    height: 200vh;
 }
 
 .fondo{
@@ -22,15 +20,15 @@ h1{
 }
 
 .ropamujer{
-    width: 100%;
+    width: 90%;
     height: 100vh;
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top:5%;
 }
 
 .ropamujer img{
     width: 70%;
-    height: 70%;
+    height: 80%;
     border: 3px solid #000;
 }
 
@@ -38,8 +36,7 @@ p{
     color: #E02D1F;
     list-style-type: none;
     font-weight: bold;
-    margin-left: -30%;
-    margin-top: 3%;
+    margin-left: -35%;
     text-align: center;
 }
 
@@ -59,7 +56,7 @@ hr{
 }
 
 span{
-    width: 67%;
+    width: 68%;
     height: 10%;
     position: relative;
     margin-top: -12%;
@@ -76,5 +73,6 @@ span{
     color: #E02D1F;
     background: #EEFFF7;
     opacity: 1;
+    border: 1px solid #000;
 }
 

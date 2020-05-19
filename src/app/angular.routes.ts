@@ -10,7 +10,7 @@ import { DescripcionRopaHombreComponent } from './components/body/descripcion-ro
 import { NotfoundComponent } from './components/Shared/notfound/notfound.component';
 
 const Rutas: Routes = [
-    { path: '', component: BodyComponent },
+    { path: "", component: BodyComponent },
     { path: "tarjetas", component:TarjetasComponent},
     { path: "contacto", component:ContactComponent},
     { path: "aboutus", component:AboutusComponent},
